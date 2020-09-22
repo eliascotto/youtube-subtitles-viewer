@@ -1,9 +1,5 @@
 # YouTube subtitles viewer - Chrome Extension
 
-[![npm](https://img.shields.io/npm/v/chrome-extension-boilerplate-react)](https://www.npmjs.com/package/chrome-extension-boilerplate-react)
-[![npm-download](https://img.shields.io/npm/dw/chrome-extension-boilerplate-react)](https://www.npmjs.com/package/chrome-extension-boilerplate-react)
-[![npm](https://img.shields.io/npm/dm/chrome-extension-boilerplate-react)](https://www.npmjs.com/package/chrome-extension-boilerplate-react)
-
 [![dependencies Status](https://david-dm.org/elias94/youtube-subtitles-viewer.svg)](https://david-dm.org/elias94/youtube-subtitles-viewer.svg)
 [![devDependencies Status](https://david-dm.org/elias94/youtube-subtitles-viewer.svg)](https://david-dm.org/elias94/youtube-subtitles-viewer.svg)
 
