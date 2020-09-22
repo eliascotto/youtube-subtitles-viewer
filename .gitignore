@@ -19,6 +19,9 @@
 # secrets
 secrets.*.js
 
+# vscode
+/.vscode
+
 # chrome extension packages
 *.crx
 *.pem
