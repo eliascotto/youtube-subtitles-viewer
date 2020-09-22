@@ -1,0 +1,196 @@
+body {
+  background-color: #212121;
+}
+
+.YTCaption {
+  width: calc(100% + 15px);
+  text-align: center;
+  background-color: #313131;
+}
+
+.YTCaption-header {
+  background-color: #202020;
+  width: 100vw;
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  padding: 0 15px;
+  box-sizing: border-box;
+}
+
+.YTCaption-body {
+  position: relative;
+  font-size: 16px;
+  background-color: #191919;
+  color: rgba(255, 255, 255, 0.88);
+}
+
+.YTCaption-body.loading {
+  top: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.YTCaption-body.no-content {
+  top: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  font-size: 16px;
+}
+
+.YTCaption-menu {
+  list-style: none;
+  padding: 0;
+  margin-top: 40px;
+  margin-bottom: 0;
+  padding-top: 10px;
+  padding-bottom: 5px;
+}
+
+.YTCaption-menu-item {
+  text-align: left;
+  padding: 5px 15px;
+  font-size: 14px;
+  display: flex;
+}
+
+.YTCaption-menu-item:hover {
+  background-color: #373737;
+}
+
+.YTCaption-form {
+  flex: 1;
+  flex-basis: 1e-9px;
+  display: flex;
+  flex-direction: row;
+  margin: 5px 0;
+}
+
+.YTCaption-search-container {
+  position: relative;
+  align-items: center;
+  background-color: #121212;
+  border: 1px solid #303030;
+  border-radius: 2px 0 0 2px;
+  box-shadow: inset 0 1px 2px rgba(0,0,0,0);
+  color: rgba(255, 255, 255, 0.88);
+  padding: 2px 6px;
+  flex: 1;
+  flex-basis: 1e-9px;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: row;
+}
+
+.YTCaption-search-input-container {
+  width: 100%;
+}
+
+.YTCaption-search-input-container input {
+  outline: none;
+  color: rgba(255, 255, 255, 0.88);
+  -webkit-appearance: none;
+  -webkit-font-smoothing: antialiased;
+  background-color: transparent;
+  border: none;
+  box-shadow: none;
+  color: inherit;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  margin-left: 4px;
+  max-width: 100%;
+  outline: none;
+  text-align: left;
+  width: 100%;
+  flex: 1;
+  flex-basis: .000000001px;
+}
+
+.YTCaption-language {
+  font-size: 14px;
+  display: flex;
+  align-content: center;
+  justify-self: center;
+  flex-direction: column;
+  position: relative;
+  user-select: none;
+  color: rgba(255, 255, 255, 0.88);
+  padding: 10px;
+  min-width: 100px;
+  text-align: left;
+  cursor: pointer;
+}
+
+.YTCaption-language.single {
+  cursor: default;
+}
+
+.YTCaption-language:hover > .YTCaption-language-menu,
+.YTCaption-language-menu:hover {
+  visibility: visible;
+  opacity: 1;
+  display: block;
+  z-index: 2;
+}
+
+.YTCaption-language-single {
+  cursor: default;
+}
+
+.YTCaption-language-menu {
+  visibility: hidden;
+  opacity: 0;
+  min-width: 5rem;
+  position: absolute;
+  transition: all 0.5s ease;
+  margin-top: 1rem;
+  top: 27.5px;
+  left: 0;
+  display: none;
+  background-color: #202020;
+
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  padding-top: 5px;
+  padding-bottom: 5px;
+
+  overflow-y: scroll;
+  max-height: 360px;
+}
+
+.YTCaption-language-menu-item {
+  text-align: left;
+  padding: 7.5px 10px;
+  cursor: pointer;
+}
+
+.YTCaption-language-menu-item:hover {
+  background-color: #393939;
+}
+
+.Caption-sec {
+  display: inline;
+  padding-right: 12.5px;
+  -webkit-user-select: none;
+  cursor: pointer;
+  text-decoration: underline dotted;
+}
+
+.Caption-text {
+  display: inline-block;
+  margin: 0;
+}

@@ -1,0 +1,50 @@
+{
+  "name": "YouTube subtitles viewer",
+  "background": {
+    "page": "background.html",
+    "persistent": false
+  },
+  "page_action": {
+    "default_popup": "popup.html",
+    "default_title": "Youtube subtitles viewer"
+  },
+  "permissions": [
+    "tabs",
+    "storage",
+    "declarativeContent"
+  ],
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png",
+    "256": "icon256.png"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "*://www.youtube.com/*",
+        "*://youtube.com/*"
+      ],
+      "js": [
+        "contentScript.bundle.js"
+      ]
+    }
+  ],
+  "commands": {
+    "_execute_page_action": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+K",
+        "mac": "Command+Shift+K"
+      }
+    }
+  },
+  "web_accessible_resources": [
+    "content.styles.css",
+    "icon254.png",
+    "icon128.png",
+    "icon48.png",
+    "icon16.png"
+  ],
+  "manifest_version": 2,
+  "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'"
+}
