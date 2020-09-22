@@ -20,7 +20,7 @@
 secrets.*.js
 
 # vscode
-/.vscode
+.vscode/
 
 # chrome extension packages
 *.crx
