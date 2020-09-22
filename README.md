@@ -16,9 +16,7 @@ Technologies used from the boilertemplate:
 - [React Hot Loader](https://github.com/gaearon/react-hot-loader)
 - [eslint-config-react-app](https://www.npmjs.com/package/eslint-config-react-app)
 
-## Installing and Running
-
-### Procedures:
+## Running
 
 1. clone this repo
 2. `npm install`
