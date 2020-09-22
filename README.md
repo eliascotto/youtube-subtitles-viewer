@@ -3,6 +3,8 @@
 [![dependencies Status](https://david-dm.org/elias94/youtube-subtitles-viewer.svg)](https://david-dm.org/elias94/youtube-subtitles-viewer.svg)
 [![devDependencies Status](https://david-dm.org/elias94/youtube-subtitles-viewer.svg)](https://david-dm.org/elias94/youtube-subtitles-viewer.svg)
 
+**[Chrome Webstore extension page](https://chrome.google.com/webstore/detail/youtube-subtitles-viewer/ljblecifcbmcdjbabhimddlladlkfdfg)**
+
 ## Features
 
 This is a Chrome extension used to extract subtitles from YouTube videos, where available. You could easily navigate them, select and copy, search for keywords and select the language. You could also reach the exact point clicking the time link, and the video will automatically goes to the exact time.
