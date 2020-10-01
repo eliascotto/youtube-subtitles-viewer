@@ -1,7 +1,7 @@
 # YouTube subtitles viewer - React Chrome Extension
 
-[![dependencies Status](https://david-dm.org/elias94/youtube-subtitles-viewer.svg)](https://david-dm.org/elias94/youtube-subtitles-viewer.svg)
-[![devDependencies Status](https://david-dm.org/elias94/youtube-subtitles-viewer.svg)](https://david-dm.org/elias94/youtube-subtitles-viewer.svg)
+[![dependencies Status](https://david-dm.org/elias94/youtube-subtitles-viewer/status.svg)](https://david-dm.org/elias94/youtube-subtitles-viewer)
+[![devDependencies Status](https://david-dm.org/elias94/youtube-subtitles-viewer/dev-status.svg)](https://david-dm.org/elias94/youtube-subtitles-viewer?type=dev)
 
 **[Chrome Webstore extension page](https://chrome.google.com/webstore/detail/youtube-subtitles-viewer/ljblecifcbmcdjbabhimddlladlkfdfg)**
 
